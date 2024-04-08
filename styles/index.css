@@ -2,7 +2,30 @@
 
 /* navigation bar */
 
+.navbar ul{
+list-style-type: none;
+background-color: black;
+padding:5px;
+margin:5px;
 
-div.navbar{
+}
+
+.navbar a{
+color:white;
+text-decoration: underline;
+padding:5px;
+display:block;
+text-align:center;
+
+}
+
+
+.card-body{
+    border:1px black solid;
+    width:340px;
     background-color: white;
+    text-align:left;
+    padding:5px;
+    margin:8px;
+    font-size: 25px;
 }

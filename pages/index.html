@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milkman On Demand</title>
+    <link rel="stylesheet" href="../styles/index.css">
     <style>
         /* Cowprint background img */
-    body {
-        background-image: url("../images/cowprint2.jpeg");
-        background-repeat:repeat;
-        background-position:center;
-        background-size:auto;
-    }
+        body {
+            background-image: url("../images/cowprint2.jpeg");
+            background-repeat: repeat;
+            background-position: center;
+            background-size: auto;
+        }
     </style>
 </head>
 
 <body>
     <!-- header -->
-   <header>
-    <h1 style="text-align:center;display:flex;flex-direction:column; background-color:white;border:black solid 2px;">Milkman On Demand</h1>
-   </header>
+    <header>
+        <h1
+            style="text-align:center;display:flex;flex-direction:column; background-color:white;border:black solid 2px;">
+            Milkman On Demand</h1>
+    </header>
     <!-- nav bar -->
-<div class="navbar">
-   
-      
-    <a class="active" href="../pages/index.html">Home</a>
-    <a href="../pages/index2.html">News</a>
-    <a href="../pages/index3.html">Contact</a>
-     
-</div>
+    <nav class="navbar">
+                    
+        <ul>
+           <li> <a class="active" href="../pages/index.html">Home</a></li>
+           <li><a href="../pages/index2.html">News</a></li>
+            <li><a href="../pages/index3.html">Contact</a></li>
+        </ul>
+        
+    </nav>
 
 
+    <div class="card-body">
+        <div class="img-container">
+          <img src="../images/milkman pic.jpeg" alt="Man delivering milk bottles" width="340" height="305">
+        </div>
+        <h1 id="cardMilk">We Deliver to All of NYC!</h1>
+        <p>Milkman on Demand is bringing back the "milk man" to all five boroughs and with all dietary restrictions considered!</p>
+      </div>
 
 
 
@@ -38,4 +50,5 @@
 
 
 </body>
+
 </html>
