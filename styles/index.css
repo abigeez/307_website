@@ -19,7 +19,7 @@ text-align:center;
 
 }
 
-
+/* milkman card */
 .card-body{
     border:1px black solid;
     width:340px;
@@ -27,5 +27,38 @@ text-align:center;
     text-align:left;
     padding:5px;
     margin:8px;
-    font-size: 25px;
+    font-size: 20px;
+   
 }
+
+.card_milkbtl{
+display:flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+.milk_bottle{
+    margin:8px;
+    
+ 
+}
+
+p.vint_1{
+    text-align: left;
+    background-color: white;
+    border:black solid 1px;
+}
+
+
+/* logo
+.logo_cont{
+  background-color: white;
+    font-size:40px;
+    font-family:fantasy;
+    text-align: center;
+    border: 4px black solid;
+    padding:0px;
+    box-shadow: black 10px 10px;
+    
+} */
+
