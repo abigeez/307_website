@@ -49,9 +49,13 @@ flex-wrap:wrap;
    width:300px;
  
 }
+/* delivery man img */
+.milky{
+    border:2px solid black;
+    box-shadow: 7px 7px;
+}
 
-
-/* paragraph under man delivery */
+/* paragraph under delivery man */
 p.vint_1{
     text-align: left;
     background-color: aliceblue;
@@ -77,7 +81,8 @@ p.vint_1{
 .about{
 display:flex;
 flex-direction: row;
-
+justify-content: space-between;
+flex-wrap: nowrap;
 }
 
 
@@ -101,7 +106,25 @@ flex-direction: row;
     width:300px;
 }
 
-.cow_pic{
-    display:flex;
-    flex-direction: column;
+/* farm pics */
+
+.cows1{
+    border: 2px solid black;
+    box-shadow: 7px 7px;
+    transition:all 6s ease-in 1s;
+}
+.cows1:hover{
+    opacity: 15%;
+    width: 200%;
+    height:200;
+}
+.dairyfarm{
+    border:2px solid black;
+    box-shadow: 7px 7px;
+    transition:all 6s ease-in-out 1s;
+}
+.dairyfarm:hover{
+    opacity:25%;
+    transform: rotate(360deg);
+
 }
