@@ -1,0 +1,18 @@
+/* navigation bar */
+
+.navList2{
+    list-style-type: none;
+    background-color: black;
+    padding:5px;
+    margin:5px;
+    display:flex;
+    }
+    
+    
+    
+    .navbar2 a{
+    color:white;
+    text-decoration: underline;
+    padding:5px;
+    display:block;
+    }

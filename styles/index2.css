@@ -35,6 +35,8 @@
         padding:0px;
         border:dashed black 2px;
     }
+
+    /* table  */
     td, th {
 border: 1px solid black;
 border-collapse:collapse;
@@ -54,12 +56,29 @@ text-align:center;
         margin-left:auto;
         margin-right:auto;
     }
+    /* gif of cow */
     .cowgif{
         display:flex;
         flex-direction:row;
        justify-content: center;
-        margin-top:50px;
-    
-       
+      margin:40px;
     }
+
+    /* registration form */
+    .form_deets{
+        padding:10px;
+        margin:10px;
+        background-color:aliceblue;
+        border:black dashed 2px;
+        font-size:18px;
+        width:550px;
+        height:350px;
+        display:flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right:auto;
+        text-align:center;
+        margin-bottom: 60px;
+    }
+    
 
