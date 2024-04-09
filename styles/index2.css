@@ -1,6 +1,6 @@
 /* navigation bar */
 
-.navList{
+.navList2{
     list-style-type: none;
     background-color: black;
     padding:5px;
@@ -10,9 +10,22 @@
     
     
     
-    .navbar a{
+    .navbar2 a{
     color:white;
     text-decoration: underline;
     padding:5px;
     display:block;
-    }    
+    }
+
+    /* subscription title */
+    .membership_head{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .subOp{
+        font-size: 28px;
+        text-align:center;
+        background-color: aliceblue;
+        width: 400px;
+    }
