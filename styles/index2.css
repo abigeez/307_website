@@ -21,11 +21,17 @@
     .membership_head{
         display:flex;
         flex-direction:row;
-        justify-content: center;
+        justify-content: flex-start;
+        margin-top: 40px;
+        margin-left:10px;
+        padding:0px;
+       
     }
     .subOp{
-        font-size: 28px;
+        font-size:20px;
         text-align:center;
         background-color: aliceblue;
         width: 400px;
+        padding:0px;
+        border:dashed black 2px;
     }
