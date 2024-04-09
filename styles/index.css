@@ -23,59 +23,85 @@ display:block;
 
 /* milkman card */
 .card-body{
-    border:1px black solid;
+    border:2px black solid;
     width:340px;
-    background-color: white;
+    background-color: aliceblue;
     text-align:left;
     padding:5px;
     margin:8px;
     font-size: 20px;
+    margin-right:auto;
    
 }
 /* parent container of first row */
 .card_milkbtl{
 display:flex;
 flex-direction: row;
-
+justify-content: space-evenly;
 flex-wrap:wrap;
 }
-
+/* card for delivery man pic */
 .milk_bottle{
-    margin-left:auto;
+   margin-right:auto;
     height:400px;
+    margin-top: auto;
+    justify-items: center;
+   width:300px;
  
 }
 
+
+/* paragraph under man delivery */
 p.vint_1{
     text-align: left;
-    background-color: white;
-    border:black solid 1px;
+    background-color: aliceblue;
+    border:black solid 2px;
+    padding:3px;
 }
 
-
+/* different types of milk card */
 .card{
     width:280px;
     display:flex;
     flex-direction: column;
-    align-self: flex-start;
-    margin-right: ;
-}
-.center{
-     display: block;
-    margin-left: auto;
-   margin-right: auto;
-    width: 50%;
+  margin-right:auto;
+    background-color: aliceblue;
+    text-align:left;
+    padding:9px;
+    margin:8px;
+    font-size: 20px;
+    border:black solid 2px;
 }
 
-/* logo
-.logo_cont{
-  background-color: white;
-    font-size:40px;
-    font-family:fantasy;
+  /* about us section */
+.about{
+display:flex;
+flex-direction: row;
+
+}
+
+
+.abt_us{
+    background-color: aliceblue;
+    width:300px;
+    height:50px;
     text-align: center;
-    border: 4px black solid;
-    padding:0px;
-    box-shadow: black 10px 10px;
-    
-} */
+    Display:flex;
+    justify-content: CENTER;
+    margin-right:auto;
+    margin-left:auto;
+    border:black solid 2px;
+}
+.para_bt{
+    background-color:aliceblue;
+    font-size: 22px;
+    border:2px black solid;
+    text-align: justify;
+    padding: 12px;
+    width:300px;
+}
 
+.cow_pic{
+    display:flex;
+    flex-direction: column;
+}
