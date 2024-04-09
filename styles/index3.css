@@ -16,3 +16,34 @@
     padding:5px;
     display:block;
     }
+
+    .container{
+        background-color: aliceblue;
+        width:50%;
+        height:50%;
+        display:flex;
+        flex-direction:column;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    input[type=submit] {
+        background-color:hotpink;
+        color:darkgrey;
+        padding:12px 20px;
+        border:black 1px solid;
+        border-radius: 1px 1px;
+        cursor:pointer;
+    }
+
+    input[type=text],select,textarea{
+        padding:10px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin-top:8px;
+        margin-bottom:14px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        
+    }
