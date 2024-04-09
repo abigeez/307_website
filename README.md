@@ -1,0 +1,4 @@
+This website links you to three different pages regarding the company's information and what they sell. The company is called Milkman on Demand where you can get your milk ordered and delivered the old-fashioned way, in glass-bottles and delivered right to your door.
+The options of looking around the website are that you can look at the about me section or contact information, and also browse their subscription options and register to be able to obtain a membership.
+I used three different documents of HTML and CSS all linked individually to its corresponding page, where I also used some flexbox. 
+Here is the github for that website. 
