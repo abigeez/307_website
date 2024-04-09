@@ -21,7 +21,7 @@
     .membership_head{
         display:flex;
         flex-direction:row;
-        justify-content: flex-start;
+        justify-content: center;
         margin-top: 40px;
         margin-left:10px;
         padding:0px;
@@ -35,3 +35,31 @@
         padding:0px;
         border:dashed black 2px;
     }
+    td, th {
+border: 1px solid black;
+border-collapse:collapse;
+
+text-align:center;
+    }
+    .table2{
+        background-color:white;
+    }
+    .table1{
+        display:flex;
+        flex-direction:row;
+       
+        margin-top:50px;
+        width:700px;
+        height:500px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .cowgif{
+        display:flex;
+        flex-direction:row;
+       justify-content: center;
+        margin-top:50px;
+    
+       
+    }
+
